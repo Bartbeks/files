@@ -64,7 +64,7 @@ def find_password(files):
                 return str(password[1]).strip()
 
 
-clean_cache
+clean_cache()
 cache_zip(files_path, cache_path)
 cached_files()
 find_password(text_files)
